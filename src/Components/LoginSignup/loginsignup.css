@@ -75,15 +75,17 @@
     }
 
     .Already-Have-Account{
-        padding-left: 62px;
+        padding-left: 12px;
         margin-top: 27px;
         color: #797979;
         font-size: 18px;
+        align-items: center;
     }
 
     .Already-Have-Account span{
         color: #4c00b4;
         cursor: pointer;
+        padding-left: 7px;
     }
 
     .submit-container{

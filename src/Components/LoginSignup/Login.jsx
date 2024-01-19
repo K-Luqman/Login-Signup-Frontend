@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { Navigate } from "react-router-dom";
 
-import './loginsignup.css';
+import '../LoginSignup/loginsignup.css'
 
-import user_icon from '/home/luqman/loginsignup/src/Components/Assets/person.png';
-import password_icon from '/home/luqman/loginsignup/src/Components/Assets/password.png';
+import user_icon from '../Assets/person.png';
+import password_icon from '../Assets/password.png';
 
 const Login = () => {
   const [action, setAction] = useState("Login");
@@ -19,7 +19,7 @@ const Login = () => {
     const user = existingData.find((user) => user.username === username && user.password === password);
 
     if (user) {
-      // Successful login logic (you can set user authentication state, etc.)
+    
       console.log("Login successful");
     } else {
       setLoginError('Invalid username or password');
@@ -67,5 +67,4 @@ const Login = () => {
 };
 
 export default Login;
-
 

@@ -3,9 +3,9 @@ import { Navigate } from "react-router-dom";
 
 import './loginsignup.css'
 
-import user_icon from '/home/luqman/loginsignup/src/Components/Assets/person.png'
-import email_icon from '/home/luqman/loginsignup/src/Components/Assets/email.png'
-import password_icon from '/home/luqman/loginsignup/src/Components/Assets/password.png'
+import user_icon from '../Assets/person.png'
+import email_icon from '../Assets/email.png'
+import password_icon from '../Assets/password.png'
 
 
 const Signup = () => {

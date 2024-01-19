@@ -7,8 +7,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   height: 100vh;
-  background: linear-gradient(#2a00b7,#42006c);
-}
+  /* background: linear-gradient(#2a00b7,#42006c); */
+  background-image: url('https://img.freepik.com/premium-vector/geometric-gradient-technology-background_23-2149110132.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1705622400&semt=ais');
+  background-size: cover;
+
+} 
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
